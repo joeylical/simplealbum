@@ -1,0 +1,54 @@
+.photo {
+  border-radius: 8px;
+  max-width: 600px;
+  height: auto;
+}
+
+.MuiDialog-container div {
+  overflow-y: visible;
+}
+
+.mentionWrapper {
+  width: '100%';
+  background: transparent;
+  font-size: 0.9rem;
+  /* color: #a9b5c4; */
+}
+
+.mentionWrapper .mentionWrapper__control {
+  border: 1px solid #3a546f;
+  min-height: 45px;
+}
+
+.mentionWrapper .mentionWrapper__control .mentionWrapper__highlighter {
+  padding: 0.7rem 1rem;
+}
+
+.mentionWrapper .mentionWrapper__control .mentionWrapper__input {
+  padding: 0.7rem 1rem;
+  outline: 'auto';
+  border: 0;
+  resize: none;
+  outline: none;
+  font-size: 0.9rem;
+  /* color: #7288a3;
+  border-color: #3a546f; */
+  overflow: hidden;
+}
+
+.mentionWrapper__suggestions {
+  z-index: infinite;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.mentionWrapper__suggestions .mentionWrapper__suggestions__list {
+  font-size: 14px;
+}
+
+.mentionWrapper .mentionWrapper__suggestions .mentionWrapper__suggestions__item--focused {
+  /* color: #ffffff; */
+  /* border-bottom: 1px solid #3a546f; */
+  background-color: lightgray;
+  font-weight: 600;
+}

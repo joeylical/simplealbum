@@ -1,0 +1,14 @@
+{
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "mainController.js",
+    "components",
+    "test",
+    "schema",
+    "modelData",
+    "mongodb/*"
+  ],
+  "verbose": false,
+  "ext": "js"
+}
